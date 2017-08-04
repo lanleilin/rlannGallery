@@ -111,3 +111,6 @@ body {
   width: 100% !important;
   color: #555555;
 }
+#theMatrix {
+  color: darkgray;
+}
