@@ -63,14 +63,14 @@
 							if(y > Math.random() * 1e4) {
 								yPositions[index] = 0;
 							} else {
-								yPositions[index] = y + 8;
+								yPositions[index] = y + 6;
 							}
 						});
 					};
 					RunMatrix();
 
 					function RunMatrix() {
-						Game_Interval = setInterval(draw, 45);
+						Game_Interval = setInterval(draw, 40);
 					}
 				} else {
 					var s = window.screen;
@@ -187,7 +187,7 @@
 		</div>
 		<!--展示栏-->
 						<div align="center">
-			<h1 id="theMatrix">点击图片转入相应网站</h1>
+			<h3 id="theMatrix">点击图片转入相应网站</h3>
 			<canvas id="q"></canvas>
 		</div>
 		<!--<div class="navbar navbar-default">
