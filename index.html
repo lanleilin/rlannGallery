@@ -55,15 +55,15 @@
 						ctx.fillStyle = 'rgba(0,0,0,.05)';
 						ctx.fillRect(0, 0, width, height);
 						ctx.fillStyle = 'lightgreen';
-						ctx.font = '4rem Georgia';
+						ctx.font = '1rem Georgia';
 						yPositions.map(function(y, index) {
 							text = String.fromCharCode(1e2 + Math.random() * 33);
-							x = (index * 50) + 10; //x距离
+							x = (index * 10) + 10; //x距离
 							q.getContext('2d').fillText(text, x, y);
 							if(y > Math.random() * 1e4) {
 								yPositions[index] = 0;
 							} else {
-								yPositions[index] = y + 30;
+								yPositions[index] = y + 10;
 							}
 						});
 					};
