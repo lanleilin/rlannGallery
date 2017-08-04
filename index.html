@@ -63,14 +63,14 @@
 							if(y > Math.random() * 1e4) {
 								yPositions[index] = 0;
 							} else {
-								yPositions[index] = y + 10;
+								yPositions[index] = y + 6;
 							}
 						});
 					};
 					RunMatrix();
 
 					function RunMatrix() {
-						Game_Interval = setInterval(draw, 50);
+						Game_Interval = setInterval(draw, 40);
 					}
 				} else {
 					var s = window.screen;
